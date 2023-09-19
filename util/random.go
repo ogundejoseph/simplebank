@@ -54,3 +54,11 @@ func RandomAccountID() int64 {
 func RandomAmount() int64 {
 	return RandomInt(1, 1000)
 }
+
+func RandomFromAccountID() int64 {
+	return RandomInt(100, 999)
+}
+
+func RandomToAccountID() int64 {
+	return RandomInt(100, 999)
+}
